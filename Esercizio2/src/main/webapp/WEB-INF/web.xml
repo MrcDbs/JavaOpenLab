@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee    
+http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>it.esercizio2.controller.LoginServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  
+  <filter>
+	  <filter-name>LoginFilter</filter-name>
+	  <filter-class>it.esercizio2.filter.LoginFilter</filter-class>
+	</filter>
+	<filter-mapping>
+	  <filter-name>LoginFilter</filter-name>
+	   <url-pattern>/loginAuth/*</url-pattern>
+	</filter-mapping>
+	
+	  <filter>
+	  <filter-name>LoginFilter1</filter-name>
+	  <filter-class>it.esercizio2.filter.LoginFilter1</filter-class>
+	</filter>
+	<filter-mapping>
+	  <filter-name>LoginFilter1</filter-name>
+	   <url-pattern>/login</url-pattern>
+	</filter-mapping>
+	
+	  <filter>
+	  <filter-name>LoginFilter2</filter-name>
+	  <filter-class>it.esercizio2.filter.LoginFilter2</filter-class>
+	</filter>
+	<filter-mapping>
+	  <filter-name>LoginFilter2</filter-name>
+	   <url-pattern>/login</url-pattern>
+	</filter-mapping>
+	
+	   <filter>
+	  <filter-name>LoginFilter3</filter-name>
+	  <filter-class>it.esercizio2.filter.LoginFilter3</filter-class>
+	</filter>
+	<filter-mapping>
+	  <filter-name>LoginFilter3</filter-name>
+	   <url-pattern>/login</url-pattern>
+	</filter-mapping> 
+  </web-app>

@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body{
+	background-color:purple;
+}
+.main-window{
+	background-color:white;
+	border-radius:20px;
+	padding:30px 50px 30px 50px;
+	margin-left:300px;
+	margin-right:300px;
+}
+form,h1{
+	text-align:center;
+}

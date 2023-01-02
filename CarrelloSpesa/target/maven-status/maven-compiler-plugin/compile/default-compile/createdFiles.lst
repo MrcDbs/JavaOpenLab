@@ -1,0 +1,4 @@
+it/carrello/controller/MainServlet.class
+it/carrello/javabean/Carrello.class
+it/carrello/filter/LoginFilter.class
+it/carrello/javabean/Item.class

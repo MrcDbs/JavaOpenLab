@@ -1,0 +1,6 @@
+it/esercizi/mail/MailSystem.class
+it/esercizi/javaBean/Persona.class
+it/esercizi/controller/MainServlet.class
+it/esercizi/mail/MailSystem$1.class
+it/esercizi/controller/EmailException.class
+it/esercizi/controller/SendEmailServlet.class
